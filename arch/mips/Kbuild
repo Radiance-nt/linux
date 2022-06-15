@@ -2,7 +2,7 @@
 # -Werror can be disabled for specific files using:
 # CFLAGS_<file.o> := -Wno-error
 ifeq ($(W),)
-subdir-ccflags-y := -Werror
+subdir-ccflags-y := -Wall
 endif
 
 # platform specific definitions
